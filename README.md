@@ -1,6 +1,6 @@
 # kiosk-pi
 
-## install basic tools and update os
+## update OS, install Xserver, ligthdm, browser and do basic config
 
 Run `either` this script (which will install vim and git)
 
