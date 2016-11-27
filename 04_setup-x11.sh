@@ -39,7 +39,7 @@ cat << EOF | sudo tee ${LXDE_AUTOSTART_FILE} >/dev/null
 @xset s off
 @xset -dpms
 @xset s noblank
-@/home/${KIOSK_USER}/kisok.sh
+@/home/${KIOSK_USER}/kiosk.sh
 EOF
 
 fi
