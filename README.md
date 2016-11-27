@@ -15,7 +15,7 @@ curl -sSL https://github.com/frennkie/kiosk-pi/raw/master/01s_install-os-basics.
 ```
 
 
-### get complete git report
+### get complete git repo
 
 ```
 git clone https://github.com/frennkie/kiosk-pi.git
