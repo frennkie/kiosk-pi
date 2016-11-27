@@ -2,9 +2,18 @@
 
 ## install basic tools and update os
 
+Run `either` this script (which will install vim and git)
+
 ```
 curl -sSL https://github.com/frennkie/kiosk-pi/raw/master/01_install-os-basics.sh | bash
 ```
+
+`OR` this one (which will **not** install vim and git)
+
+```
+curl -sSL https://github.com/frennkie/kiosk-pi/raw/master/01s_install-os-basics.sh | bash
+```
+
 
 ### get complete git report
 
