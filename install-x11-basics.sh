@@ -42,6 +42,8 @@ cat << EOF | sudo tee ${LIGHTDM_CONF_FILE} >/dev/null
 [SeatDefaults]
 autologin-user=pi
 autologin-user-timeout=0
+# don't sleep the screen
+xserver-command=X -s 0 dpms
 EOF
 
 fi
