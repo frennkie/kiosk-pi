@@ -16,7 +16,7 @@ cd kiosk-pi
 ``` 
 
 
-### Printing the IP on boot is set up: `/etc/rc.local`
+### Printing the IP on boot is set up in `/etc/rc.local`
 
 ```
 # Print the IP address
@@ -26,7 +26,7 @@ if [ "$_IP" ]; then
 fi
 ``` 
 
-### Change boot behaviour: `/boot/config.txt` (also possible via raspi-config)
+### Change boot behaviour in `/boot/config.txt` (also possible via raspi-config)
 
 append this to remove rainbow splash on boot
 
