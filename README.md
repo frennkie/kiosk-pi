@@ -37,9 +37,7 @@ wget https://raw.githubusercontent.com/frennkie/kiosk-pi/master/screen_on.sh
 
 ``` 
 cd kiosk-pi
-./02_install-x11-basics.sh
-./03_add-user.sh
-./04_setup-x11.sh
+./02_install-x11-basics.sh && ./03_install-browser.sh && ./04_add-user.sh && ./05_setup-x11.sh
 ``` 
 
 ### Basic setup done!
