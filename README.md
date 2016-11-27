@@ -25,8 +25,9 @@ git clone https://github.com/frennkie/kiosk-pi.git
 
 ```
 wget https://raw.githubusercontent.com/frennkie/kiosk-pi/master/02_install-x11-basics.sh
-wget https://raw.githubusercontent.com/frennkie/kiosk-pi/master/03_add-user.sh
-wget https://raw.githubusercontent.com/frennkie/kiosk-pi/master/04_setup-x11.sh
+wget https://raw.githubusercontent.com/frennkie/kiosk-pi/master/03_install-browser.sh
+wget https://raw.githubusercontent.com/frennkie/kiosk-pi/master/04_add-user.sh
+wget https://raw.githubusercontent.com/frennkie/kiosk-pi/master/05_setup-x11.sh
 wget https://raw.githubusercontent.com/frennkie/kiosk-pi/master/kiosk.sh
 wget https://raw.githubusercontent.com/frennkie/kiosk-pi/master/screen_off.sh
 wget https://raw.githubusercontent.com/frennkie/kiosk-pi/master/screen_on.sh
