@@ -1,6 +1,6 @@
 #!/bin/bash
-set +x
-set -e
+set +x  # debug off
+set -e  # exit on error
 
 echo ""
 echo "Installing basic X11 packages"

@@ -1,7 +1,6 @@
 #!/bin/bash
-#set +x  # no debug
-set -x  # debug
-#set -e  # stop on error
+set +x  # debug off
+#set -x  # debug on
 
 KIOSK_USER=kiosk
 
