@@ -1,12 +1,18 @@
 # kiosk-pi
 
-### install basic tools and update os
+## install basic tools and update os
 
 ```
 curl -sSL https://github.com/frennkie/kiosk-pi/raw/master/01_install-os-basics.sh | bash
 ```
 
+### get complete git report
+
+```
 git clone https://github.com/frennkie/kiosk-pi.git
+```
+
+### run the scripts
 
 ``` 
 cd kiosk-pi
@@ -15,6 +21,11 @@ cd kiosk-pi
 ./04_setup-x11.sh
 ``` 
 
+### Basic setup done!
+
+## Customize
+
+### What is run is congigure in `/home/kiosk/kiosk.sh`
 
 ### Printing the IP on boot is set up in `/etc/rc.local`
 
