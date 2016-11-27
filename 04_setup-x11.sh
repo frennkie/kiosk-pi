@@ -27,9 +27,16 @@ fi
 cat ${LIGHTDM_CONF_FILE}
 echo "...done"
 
+
 # --------------------------------------------------------------------
 echo ""
-echo " STEP 2: configure LXDE autostart to run kiosk.sh"
+echo " STEP 2: staring lightdm"
+sudo service lightdm start
+
+
+# --------------------------------------------------------------------
+echo ""
+echo " STEP 3: configure LXDE autostart to run kiosk.sh"
 LXDE_AUTOSTART_FILE=/home/${KIOSK_USER}/.config/lxsession/LXDE/autostart
 if [ ! -f ${LXDE_AUTOSTART_FILE}.sav ]; then
   # backup original file
