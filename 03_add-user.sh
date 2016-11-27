@@ -27,11 +27,28 @@ else
 fi
 
 # --------------------------------------------------------------------
+DFILE="kiosk.sh"
 echo ""
-echo "Deploying kiosk.sh script to /home/${KIOSK_USER}"
-sudo cp kiosk.sh /home/${KIOSK_USER}
-sudo chown ${KIOSK_USER}:${KIOSK_USER} /home/${KIOSK_USER}/kiosk.sh
-sudo chmod a+x /home/${KIOSK_USER}/kiosk.sh
+echo "Deploying ${DFILE} script to /home/${KIOSK_USER}"
+sudo cp ${DFILE} /home/${KIOSK_USER}
+sudo chown ${KIOSK_USER}:${KIOSK_USER} /home/${KIOSK_USER}/${DFILE}
+sudo chmod a+x /home/${KIOSK_USER}/${DFILE}
+
+# --------------------------------------------------------------------
+DFILE="screen_on.sh"
+echo ""
+echo "Deploying ${DFILE} script to /home/${KIOSK_USER}"
+sudo cp ${DFILE} /home/${KIOSK_USER}
+sudo chown ${KIOSK_USER}:${KIOSK_USER} /home/${KIOSK_USER}/${DFILE}
+sudo chmod a+x /home/${KIOSK_USER}/${DFILE}
+
+# --------------------------------------------------------------------
+DFILE="screen_off.sh"
+echo ""
+echo "Deploying ${DFILE} script to /home/${KIOSK_USER}"
+sudo cp ${DFILE} /home/${KIOSK_USER}
+sudo chown ${KIOSK_USER}:${KIOSK_USER} /home/${KIOSK_USER}/${DFILE}
+sudo chmod a+x /home/${KIOSK_USER}/${DFILE}
 
 # --------------------------------------------------------------------
 echo ""
