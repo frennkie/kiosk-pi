@@ -21,6 +21,17 @@ curl -sSL https://github.com/frennkie/kiosk-pi/raw/master/01s_install-os-basics.
 git clone https://github.com/frennkie/kiosk-pi.git
 ```
 
+`OR`
+
+```
+wget https://raw.githubusercontent.com/frennkie/kiosk-pi/master/02_install-x11-basics.sh
+wget https://raw.githubusercontent.com/frennkie/kiosk-pi/master/03_add-user.sh
+wget https://raw.githubusercontent.com/frennkie/kiosk-pi/master/04_setup-x11.sh
+wget https://raw.githubusercontent.com/frennkie/kiosk-pi/master/kiosk.sh
+wget https://raw.githubusercontent.com/frennkie/kiosk-pi/master/screen_off.sh
+wget https://raw.githubusercontent.com/frennkie/kiosk-pi/master/screen_on.sh
+```
+
 ### run the scripts
 
 ``` 
@@ -34,7 +45,7 @@ cd kiosk-pi
 
 ## Customize
 
-### What is run is congigure in `/home/kiosk/kiosk.sh`
+### What is run is configured in `/home/kiosk/kiosk.sh`
 
 ### Printing the IP on boot is set up in `/etc/rc.local`
 
