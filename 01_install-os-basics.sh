@@ -26,3 +26,7 @@ echo ""
 echo "install some useful software"
 sudo apt-get install -y git-core vim
 
+# --------------------------------------------------------------------
+echo ""
+echo "If not done already, run the following line now:"
+echo "git clone https://github.com/frennkie/kiosk-pi.git"
