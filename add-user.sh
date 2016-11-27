@@ -28,4 +28,11 @@ fi
 
 # --------------------------------------------------------------------
 echo ""
+echo "Deploying kiosk.sh script to /home/${KIOSK_USER}"
+sudo cp kiosk.sh /home/${KIOSK_USER}
+sudo chown ${KIOSK_USER}:${KIOSK_USER} /home/${KIOSK_USER}/kiosk.sh
+sudo chmod a+x /home/${KIOSK_USER}/kiosk.sh
+
+# --------------------------------------------------------------------
+echo ""
 echo "done"
