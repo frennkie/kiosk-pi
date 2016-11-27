@@ -18,11 +18,11 @@ sudo apt-get -y autoremove
 # --------------------------------------------------------------------
 echo ""
 echo "set up NTP"
-sudo apt-get install ntpdate
+sudo apt-get install -y ntpdate
 sudo ntpdate -u ntp.ubuntu.com
 
 # --------------------------------------------------------------------
 echo ""
 echo "install some useful software"
-sudo apt-get install git-core vim
+sudo apt-get install -y git-core vim
 
