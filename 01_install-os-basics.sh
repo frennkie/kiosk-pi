@@ -11,7 +11,7 @@ sudo apt-get -y dist-upgrade
 
 # --------------------------------------------------------------------
 echo ""
-echo "API clean up"
+echo "APT clean up"
 sudo apt-get -y autoclean
 sudo apt-get -y autoremove
 
